@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#mainContainer{
+    margin: 100px auto;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: calc(40rem - 20px);
+    border: 2px solid #0E131F;
+    text-align: center;
+    font-size: 0.94rem;
+}
+#mainContainer h1{
+    margin: 20px 0;
+}
+#container{
+    padding: 30px 20px;
+    max-width: calc(40rem - 20px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #0E131F;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    outline: none;
+    color: #FBFBFF;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 7rem;
+}
+#click{
+    background: #2CA6A4;
+    border: 1px solid #2CA6A4;
+}
+#reset{
+    background: #841C26;
+    border: 1px solid #841C26;
+}
+#box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+#fdays{
+    font-size: 2rem;
+    color: #0E131F;
+    font-weight: 600;
+}

@@ -1,0 +1,26 @@
+#mainContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 20px;
+    border: 1px solid black;
+    justify-content: center;
+}
+.box{
+    height: calc(7rem);
+    width: calc(7rem);
+    font-size: 1.7rem;
+    font-weight: 700;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#message{
+    font-size: 1.3rem;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(7rem);
+}
