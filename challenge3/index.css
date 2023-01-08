@@ -5,6 +5,7 @@
     padding: 20px;
     border: 1px solid black;
     justify-content: center;
+    margin: 15rem 10rem;
 }
 .box{
     height: calc(7rem);

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e9e8e8;
+}
+#mainContainer{
+    border: 3px solid #e9e8e8;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    box-shadow: -1px 1px 33px 15px#0c0c0c;
+}
+#hour{
+    margin: 1.7rem;
+}
+#min{
+    margin-left: 1.7rem;
+}
+.clockWork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: 7rem;
+    font-weight: 900;
+}
+.colom{
+    font-size: 7rem;
+    margin-top: 1rem;
+}
+.text{
+    font-size: 1.2rem;
+    text-align: left;
+}
+#sec{
+    padding-top: 4.7rem;
+    font-size: 2rem;
+    flex-direction: row;
+}
+#sec span{
+    margin: 0.4rem;
+}
